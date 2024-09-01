@@ -12,47 +12,49 @@ const About = () => {
       </div>
 
 
+      <div className='archives-wrap'>
+        <div>
 
-      <div>
-        <h3 className='about-heading'>Archives</h3>
-
-
-        <ul>
-          <li><a>
-            November 2015</a></li>
-          <li><a>  <li><a>
-            July 2015</a></li>
-          </a></li>
-          <li><a>March 2016</a></li>
-          <li><a>January 2016</a></li>
-          <li><a>
-            April 2015</a></li>
-          <li><a>January 2016</a></li>
-          <li><a>January 2016</a></li>
-          <li><a>
-            April 2015</a></li>
-          <li><a>
-            June 2015</a></li>
-          <li><a>
-            September 2015</a></li>
-        </ul>
-      </div>
+          <h3 className='about-heading'>Archives</h3>
 
 
+          <ul>
+            <li><a>
+              November 2015</a></li>
+            <li><a>  <li><a>
+              July 2015</a></li>
+            </a></li>
+            <li><a>March 2016</a></li>
+            <li><a>January 2016</a></li>
+            <li><a>
+              April 2015</a></li>
+            <li><a>January 2016</a></li>
+            <li><a>January 2016</a></li>
+            <li><a>
+              April 2015</a></li>
+            <li><a>
+              June 2015</a></li>
+            <li><a>
+              September 2015</a></li>
+          </ul>
+        </div>
 
 
 
-      <div>
-        <h3 className='about-heading'>Elseware</h3>
 
 
-        <ul>
+        <div>
+          <h3 className='about-heading'>Elsewhere</h3>
 
-          <li><a>Github</a></li>
-          <li><a>Twitter</a></li>
-          <li><a>JFacebook</a></li>
-          {/* <li><a>January 2016</a></li> */}
-        </ul>
+
+          <ul>
+
+            <li><a>Github</a></li>
+            <li><a>Twitter</a></li>
+            <li><a>Facebook</a></li>
+            {/* <li><a>January 2016</a></li> */}
+          </ul>
+        </div>
       </div>
     </div>
   )

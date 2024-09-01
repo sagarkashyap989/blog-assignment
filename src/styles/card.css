@@ -1,0 +1,103 @@
+.card-wrapper {
+    display: flex;
+    gap: 2.45em;
+    margin-top: 41px;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card__content {
+    padding: 23px;
+    width: 64%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.45em;
+}
+
+.card__header { 
+}
+
+.card__category {
+    font-size: 1.2em;
+    color: #43B058;
+    margin-bottom: -7px;
+    font-weight: 700;
+}
+
+.card__title {
+    font-size: 2em;
+    margin: 0;
+}
+
+.card__date {
+    font-size: 1em;
+    color: #777;
+    font-weight: 300;
+    margin: 0;
+}
+
+.card__body { 
+}
+
+.card__text {
+    font-size: 1em;
+    color: #333;
+    margin: 0;
+    margin-top: 13px;
+}
+
+.card__link {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: 300;
+}
+
+.card__link:hover {
+    text-decoration: underline;
+}
+
+.card__image-container {
+    display: flex;
+    justify-content: center;
+    width: 36%;
+    background-color: #55595C;
+}
+
+.card__image {
+    background-color: #55595C;
+    max-width: 100%;
+    height: auto;
+    border-top: 1px solid #ddd;
+}
+
+
+
+@media (max-width: 400px) {
+
+
+    .card-wrapper {
+
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+    }
+
+}
+
+
+@media (min-width: 401px) and (max-width: 1250px) {
+
+
+
+    .card-wrapper {
+        flex-direction: column;
+    }
+
+
+}

@@ -1,37 +1,58 @@
-import './App.css';
+import { useState } from 'react';
+// import './App.css';
+import './styles/index.css'
+
 import About from './components/About';
 import Banner from './components/Banner';
 import Blog from './components/Blog';
 import CardWrapper from './components/CardWrapper';
+import Form from './components/Form';
 import Navbar from './components/Navbar';
 import SecondaryNavbar from './components/SecondaryNavbar';
+
+import { ModalProvider } from './context/Context';
 function App() {
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const toggleModal = () => {
+    setIsModalOpen(prevState => !prevState);
+  };
+
+
   return (
-    <>
-      <Navbar />
-      <hr />
-      <SecondaryNavbar />
+    <ModalProvider>
+<div className='container'> 
 
-      <Banner />
+<>
+        <Navbar />
+        <hr />
+        <SecondaryNavbar />
 
-
-      <CardWrapper></CardWrapper>
-
-      <section  className='blog-about-wrapper'>
-
-        <Blog/>
-
-        <About/>
+        <Banner />
 
 
-      </section>
+        <CardWrapper></CardWrapper>
+
+        <section className='blog-about-wrapper'>
+
+          <Blog />
+
+          <About />
+
+
+        </section>
+
+
+        <Form isModalOpen={isModalOpen} toggleModal={toggleModal} />
 
 
 
-      <div style={{ height: '400px' }}></div>
 
+      </>
+</div>
+    </ModalProvider>
 
-    </>
   );
 }
 

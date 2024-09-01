@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <section className="featured-banner">
       <div className="featured-banner__content">
-        <h1 className="featured-banner__title playfair-display-header">
+        <h1 className="featured-banner__title ">
           Title of a longer <br></br>Featured Blog Post
         </h1>
         <p className="featured-banner__description">Multiple lines of text from the lende, informing new <br/>readers quickly and efficiently about what's most interesting <br/>in

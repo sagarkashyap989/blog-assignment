@@ -1,0 +1,113 @@
+@import './about.css';
+@import './banner.css';
+@import './blog.css';
+@import './card.css';
+@import './form.css';
+@import './navbar.css';
+@import './secondaryNavbar.css';
+
+@import './editor.css';
+
+/* Prevent body from scrolling */
+.no-scroll {
+    overflow: hidden;
+}
+
+.playfair-display-header {
+    font-family: 'Times New Roman', Times, serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+
+html {
+
+    /* font-family: sans-serif; */
+}
+
+body {
+
+    color: #31373D;
+    /* text-align: left; */
+    /* background-color: red; */
+    background-color: #FFFFFF;
+
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+}
+
+p {
+    margin-top: 0;
+}
+
+
+button {
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    border: 1.82px solid #6f7a88;
+}
+
+
+h3 {
+    font-weight: 100;
+    margin: 0;
+    /* font-size: 1.28em; */
+}
+
+
+
+
+
+
+.container {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+/* For screen widths greater than 1250px */
+@media (min-width: 1051px) {
+    .container {
+        max-width: 1100px;
+    }
+
+    body {
+        /* background-color: blue; */
+    }
+}
+
+@media (max-width: 1251px) {
+    .container {
+        max-width: 800px
+    }
+
+    body {
+        /* background-color: red; */
+    }
+
+
+}
+
+@media (max-width: 450px) {
+    .container {
+        max-width: 100%
+    }
+
+    body {
+        /* background-color: red; */
+    }
+
+
+}

@@ -1,0 +1,35 @@
+
+.featured-banner {
+  background-color: #343A40;
+  color: #FFFFFF;
+  margin-top: 1.6em;
+  padding: 3em;
+  border-radius: 7px;
+}
+
+.featured-banner__content {
+}
+
+.featured-banner__title {
+  font-size: 3.5em;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.featured-banner__description {
+  font-size: 1.25em;
+  font-weight: 300;
+  margin-bottom: 1.5em;
+}
+
+.featured-banner__link {
+  font-size: 1.25em;
+  text-decoration: none;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.featured-banner__link:hover {
+  text-decoration: underline;
+}
+

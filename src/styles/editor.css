@@ -1,0 +1,11 @@
+.editor-wrapper{
+    margin-bottom: 15px ;
+  }
+  
+  .ck-editor__editable_inline {
+    min-height: 200px !important;
+  
+  }
+    .ck-editor__editable {
+      max-height: 200px;
+  }

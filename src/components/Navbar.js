@@ -1,6 +1,14 @@
 import React from 'react'
+import { CiSearch } from "react-icons/ci";
+
+import { useModal } from '../context/Context';
 
 function Navbar() {
+
+  const { toggleModal } = useModal();
+
+
+
   return (
     <nav>
       {/* <div> */}
@@ -10,12 +18,12 @@ function Navbar() {
 
         <div>
 
-          <h3>search</h3>
+          <span className='nav-search-icon'><CiSearch size={'25px'}/></span>
         </div>
-
+ 
         <div>
 
-          <button><h3>Sign up</h3></button>
+          <button className='nav-btn' onClick={ toggleModal }><h3>Write blog</h3></button>
         </div>
       </div>
       {/* </div> */}

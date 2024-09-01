@@ -1,0 +1,47 @@
+.secondary-nav-wrapper {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    color: #6F7880; 
+
+}
+
+.secondary-nav-item {
+    font-size: 1em;
+    
+    font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@media (max-width: 400px) {
+
+
+
+    .secondary-nav-wrapper {
+        flex-wrap: wrap;
+        column-gap: 1em;
+        row-gap: 0.4em;
+    }
+
+    .secondary-nav-item {
+        /* padding-inline: 3px; */
+        column-gap: 0.7em;
+        row-gap: 0.3em;
+    }
+}
+
+
+
+@media (min-width: 401px) and (max-width: 1250px) {
+  
+
+    .secondary-nav-wrapper {
+      gap: 1em;
+      flex-wrap: wrap;
+    }
+  
+   
+}
