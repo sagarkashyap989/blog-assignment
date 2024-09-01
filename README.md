@@ -1,3 +1,7 @@
+
+To setup project localy run `npm install` and then `npm run start`
+
+
 ## Blog Assignment Overview
 
 - On clicking the button on the left of the navbar, a form will open. This form includes several input fields and a CKEditor to write a blog using markup elements such as `<ul>`, `<li>`, `<strong>`, `<i>`, `<ol>`, `<h1>`, and `<b>`.
@@ -11,3 +15,5 @@
 - State management is handled using `useContext`.
 
 - The entire UI is responsive with appropriate breakpoints.
+- - **Third-Party Libraries/Modules used :** The project uses `react-icons` and `ckeditor5` for additional functionality.
+
