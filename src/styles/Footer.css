@@ -1,4 +1,4 @@
-footer{
+.main-footer{
     background-color: #F9F9F9 !important;
 
     height: 170px;
@@ -12,7 +12,7 @@ footer{
 
 }
 
-footer p{
+.main-footer p{
     font-size: 1em;
     
     font-family: "Noto Sans", sans-serif;
@@ -21,7 +21,7 @@ footer p{
   font-style: normal;
 }
 
-footer a{
+.main-footer a{
     color: #007BFF;
 
     font-size: 1em;
