@@ -11,6 +11,7 @@ import Navbar from './components/Navbar';
 import SecondaryNavbar from './components/SecondaryNavbar';
 
 import { ModalProvider } from './context/Context';
+import Footer from './components/Footer';
 function App() {
 
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -22,35 +23,37 @@ function App() {
 
   return (
     <ModalProvider>
-<div className='container'> 
+      <div className='container'>
 
-<>
-        <Navbar />
-        <hr />
-        <SecondaryNavbar />
+        <>
+          <Navbar />
+          <hr />
+          <SecondaryNavbar />
 
-        <Banner />
-
-
-        <CardWrapper></CardWrapper>
-
-        <section className='blog-about-wrapper'>
-
-          <Blog />
-
-          <About />
+          <Banner />
 
 
-        </section>
+          <CardWrapper></CardWrapper>
+
+          <section className='blog-about-wrapper'>
+
+            <Blog />
+
+            <About />
 
 
-        <Form isModalOpen={isModalOpen} toggleModal={toggleModal} />
+          </section>
+
+
+          <Form isModalOpen={isModalOpen} toggleModal={toggleModal} />
 
 
 
 
-      </>
-</div>
+        </>
+      </div>
+
+      <Footer/>
     </ModalProvider>
 
   );

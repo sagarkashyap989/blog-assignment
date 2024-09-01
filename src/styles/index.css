@@ -5,7 +5,7 @@
 @import './form.css';
 @import './navbar.css';
 @import './secondaryNavbar.css';
-
+@import './Footer.css';
 @import './editor.css';
 
 /* Prevent body from scrolling */
@@ -30,8 +30,7 @@ html {
 body {
 
     color: #31373D;
-    /* text-align: left; */
-    /* background-color: red; */
+    margin:0;
     background-color: #FFFFFF;
 
 }
@@ -70,7 +69,7 @@ h3 {
 
 
 .container {
-    width: 90%;
+    width: 89%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -80,7 +79,7 @@ h3 {
 /* For screen widths greater than 1250px */
 @media (min-width: 1051px) {
     .container {
-        max-width: 1100px;
+        max-width: 1116px;
     }
 
     body {
@@ -90,7 +89,7 @@ h3 {
 
 @media (max-width: 1251px) {
     .container {
-        max-width: 800px
+        max-width: 816px
     }
 
     body {

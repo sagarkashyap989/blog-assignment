@@ -1,0 +1,28 @@
+footer{
+    background-color: #F9F9F9 !important;
+
+    height: 170px;
+    /* border: 2px solid; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top:80px;
+    justify-content: center;
+    border-top: 1px solid #E5E5E5;
+
+}
+
+footer p{
+    font-size: 1em;
+    
+    font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+footer a{
+    color: #007BFF;
+
+    font-size: 1em;
+}
