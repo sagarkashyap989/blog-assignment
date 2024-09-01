@@ -1,5 +1,5 @@
 
-To setup project localy run `npm install` and then `npm run start`
+To setup project locally run `npm install` and then `npm run start`
 
 
 ## Blog Assignment Overview
