@@ -1,11 +1,13 @@
 ## Blog Assignment Overview
 
-- **Form Interaction:** Clicking the button on the left of the navbar will open a form. This form contains input fields and a CKEditor, allowing you to write a blog using various markups like `ul`, `li`, `strong`, `i`, `ol`, `h1`, and `b`.
+- On clicking the button on the left of the navbar, a form will open. This form includes several input fields and a CKEditor to write a blog using markup elements such as `<ul>`, `<li>`, `<strong>`, `<i>`, `<ol>`, `<h1>`, and `<b>`.
 
-- **Form Validation:** The form includes built-in validations to ensure that all required fields are correctly filled out.
+- The form includes validation to ensure correct input.
 
-- **Blog Submission:** Upon successful submission of the form, the new blog will be dynamically displayed below the banner in the blog section.
+- Upon successful submission of the form, the blog will be reflected below the banner in the blog section.
 
-- **Dynamic Content:** None of the blogs that appear by default are hardcoded; all blogs are rendered dynamically from the `blogList` array.
+- None of the blogs that exist by default are hardcoded; all blogs are dynamically rendered from the blog list array.
 
-- **Responsive UI:** The entire user interface is fully responsive, ensuring a seamless experience across different devices.
+- State management is handled using `useContext`.
+
+- The entire UI is responsive with appropriate breakpoints.
