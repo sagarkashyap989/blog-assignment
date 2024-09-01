@@ -19,22 +19,22 @@ const About = () => {
 
 
           <ul>
-            <li><a>
+            <li><a href='/#'>
               November 2015</a></li>
-            <li><a>  <li><a>
+            <li><a href='/#'>  <li><a href='/#'>
               July 2015</a></li>
             </a></li>
-            <li><a>March 2016</a></li>
-            <li><a>January 2016</a></li>
-            <li><a>
+            <li><a href='/#'>March 2016</a></li>
+            <li><a href='/#'>January 2016</a></li>
+            <li><a href='/#'>
               April 2015</a></li>
-            <li><a>January 2016</a></li>
-            <li><a>January 2016</a></li>
-            <li><a>
+            <li><a href='/#'>January 2016</a></li>
+            <li><a href='/#'>January 2016</a></li>
+            <li><a href='/#'>
               April 2015</a></li>
-            <li><a>
+            <li><a href='/#'>
               June 2015</a></li>
-            <li><a>
+            <li><a href='/#'>
               September 2015</a></li>
           </ul>
         </div>
@@ -49,10 +49,10 @@ const About = () => {
 
           <ul>
 
-            <li><a>Github</a></li>
-            <li><a>Twitter</a></li>
-            <li><a>Facebook</a></li>
-            {/* <li><a>January 2016</a></li> */}
+            <li><a href='/#'>Github</a></li>
+            <li><a href='/#'>Twitter</a></li>
+            <li><a href='/#'>Facebook</a></li>
+            {/* <li><a href='/#'>January 2016</a></li> */}
           </ul>
         </div>
       </div>
