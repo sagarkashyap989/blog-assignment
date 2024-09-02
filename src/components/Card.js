@@ -16,7 +16,7 @@ const Card = () => {
         </section>
         <footer>
 
-          <a href="#" className="card__link">Continue reading</a>
+          <a href="/#" className="card__link">Continue reading</a>
         </footer>
       </div>
       <div className="card__image-container">

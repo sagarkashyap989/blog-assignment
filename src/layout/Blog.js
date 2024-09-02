@@ -1,6 +1,6 @@
 import React from 'react'
 import { useModal } from '../context/Context';
-import BlogItem from './BlogItem';
+import BlogItem from '../components/BlogItem';
 
 
 

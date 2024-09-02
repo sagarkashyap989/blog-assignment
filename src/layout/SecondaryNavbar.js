@@ -7,7 +7,7 @@ const SecondaryNavbar = () => {
   return (
     <div className='secondary-nav-wrapper'>
         
-    {data.map((e) =>  (<a className='secondary-nav-item'>{e}</a>))}
+    {data.map((e) =>  (<a  href = '/#' className='secondary-nav-item'>{e}</a>))}
     </div>
   )
 }

@@ -3,15 +3,15 @@ import { useState } from 'react';
 import './styles/index.css'
 
 import About from './components/About';
-import Banner from './components/Banner';
-import Blog from './components/Blog';
+import Banner from './layout/Banner';
+import Blog from './layout/Blog';
 import CardWrapper from './components/CardWrapper';
 import Form from './components/Form';
-import Navbar from './components/Navbar';
-import SecondaryNavbar from './components/SecondaryNavbar';
+import Navbar from './layout/Navbar';
+import SecondaryNavbar from './layout/SecondaryNavbar';
 
 import { ModalProvider } from './context/Context';
-import Footer from './components/Footer';
+import Footer from './layout/Footer';
 function App() {
 
   const [isModalOpen, setIsModalOpen] = useState(false);
