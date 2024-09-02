@@ -14,7 +14,10 @@
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+  text-decoration: none;
+  color:#6F7880;
 }
+
 
 @media (max-width: 400px) {
 
